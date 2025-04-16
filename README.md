@@ -3,10 +3,10 @@
 A simple obj renderer made in python.
 
 ## Usage
-Windows : 
+### Windows : 
   1. Download and extract the .ZIP file.
   2. Execute run.bat.
-Mac / Linux :
+### Mac / Linux :
   1. Download and extract the .ZIP file.
   2. Execute run.sh.
 
