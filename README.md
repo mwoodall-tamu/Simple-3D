@@ -4,11 +4,11 @@ A simple obj renderer made in python.
 
 ## Usage
 Windows : 
-  1. Download and extract the .ZIP file
-  2. Execute run.bat
+  1. Download and extract the .ZIP file.
+  2. Execute run.bat.
 Mac / Linux :
-  1. Download and extract the .ZIP file
-  2. Execute run.sh
+  1. Download and extract the .ZIP file.
+  2. Execute run.sh.
 
 ## Controls
 W - Move the camera forward.
