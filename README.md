@@ -15,8 +15,11 @@ A simple obj renderer made in python.
 - A - Move the camera left.
 - S - Move the camera back.
 - D - Move the camera right.
+- 
 - LShift - Move the camera down.
 - Space - Move the camera up.
-- Mouse Movement - Turn the camera.
+- 
+- Mouse Movement / Arrow Keys - Turn the camera.
+- 
 - F - toggle fullscreen
 - ESC - exit the program
