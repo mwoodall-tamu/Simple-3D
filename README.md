@@ -3,15 +3,13 @@
 A simple obj renderer made in python.
 
 ## Usage
-### Windows : 
-  1. Click the downward facing arrow next to "CODE"
-  2. Download and extract the .ZIP file.
-  3. Execute run.bat.
-  4. Confirme running from unverified source.
+### Windows (Simple Setup) : 
+  1. Execute "run.bat"
 ### Mac / Linux :
-  1. Click the downward facing arrow next to "CODE"
-  2. Download and extract the .ZIP file.
-  3. Execute run.sh.
+  1. python -m venv venv
+  2. ./venv/bin/activate
+  3. pip install -r requirments.txt
+  4. python main.py
 
 ## Controls
 - W - Move the camera forward.
