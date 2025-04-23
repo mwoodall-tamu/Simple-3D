@@ -11,7 +11,7 @@ A simple obj renderer made in python.
   5. It will ask you if you are sure you want to run unverified code
   6. Click "More info"
   7. Click "Run anyway"
-  8. Read the controles and pres "enter"
+  8. Read the controles and press "enter"
 ### Mac / Linux :
   1. python -m venv venv
   2. ./venv/bin/activate

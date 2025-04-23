@@ -9,6 +9,10 @@ echo use ESC to exit the game. (Important)
 echo --------------------------------
 pause
 
+echo Finding python installs
+where python
+echo Selecting preffered vesion of python
+
 :: Use "where" to find Python installations in PATH
 for /f "delims=" %%i in ('where python') do (
     set PYTHON_PATH=%%i
@@ -44,8 +48,10 @@ goto :eof
 call venv\Scripts\activate
 
 :: Upgrade pip and install requirements
+echo setting up temperary python environment
 python -m pip install --upgrade pip
 pip install -r requirements.txt
+echo setup complete
 
 :: Run your Python script
 python main.py
