@@ -8,5 +8,20 @@ echo use the F key to toggle fullscreen
 echo use ESC to exit the game. (Important)
 echo --------------------------------
 pause
-call venv\Scripts\activate
-python3 main.py
+
+set PYTHON_PATH=%USERPROFILE%\AppData\Local\Microsoft\WindowsApps\python.exe
+
+if exist "%PYTHON_PATH%" (
+    echo Python found at %PYTHON_PATH%
+    
+    %PYTHON_PATH% -m venv venv
+    call venv\Scripts\activate
+
+    python -m pip install --upgrade pip
+    pip install -r requirements.txt
+
+    python main.py
+) else (
+    echo Official Microsoft installation of Python not detected.
+    pause
+)
