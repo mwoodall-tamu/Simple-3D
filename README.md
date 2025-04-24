@@ -1,8 +1,17 @@
 # Simple-3D
 ## Description
-A simple obj renderer made in python.
+Simple-3D is a python .obj renderer built in pygame. Simple-3D is designed for rendering retro style 3D models and letting users see how their geomotry looks. This is a modification of a previouse 3D renderer build on turtle the specialized in isometric projections of .stl files.
 
-## Usage
+## Future Goals
+  1. In app menus
+  2. Support for .stl files
+  3. Loading different / multiple models
+  4. Rendering textures
+  5. Rendering smooth normals
+  6. More sophisticated lighting system
+  7. Full PBR texture support
+
+## Setup
 ### Windows (Simple Setup) :
   1. Download "Simple-3D-R1.zip" from releases
   2. Extract the .zip file
