@@ -4,14 +4,9 @@ A simple obj renderer made in python.
 
 ## Usage
 ### Windows (Simple Setup) :
-  1. Click the drop down arrow next to "CODE"
-  2. Download the project as a .ZIP file
-  3. Extract the .ZIP file
-  4. Execute "run.bat"
-  5. It will ask you if you are sure you want to run unverified code
-  6. Click "More info"
-  7. Click "Run anyway"
-  8. Read the controles and press "enter"
+  1. Download "Simple-3D-R1.zip" from releases
+  2. Extract the .zip file
+  3. Run Simple-3D.exe
 ### Mac / Linux :
   1. python -m venv venv
   2. ./venv/bin/activate
